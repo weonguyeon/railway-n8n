@@ -1,0 +1,38 @@
+1{
+2  "name": "n8n-nodes-langchain",
+3  "version": "1.2.0",
+4  "description": "N8N nodes for Langchain integration with Anthropic models",
+5  "main": "dist/index.js",
+6  "types": "dist/index.d.ts",
+7  "scripts": {
+8    "build": "tsc",
+9    "test": "jest",
+10    "lint": "eslint . --ext .ts"
+11  },
+12  "keywords": [
+13    "n8n",
+14    "langchain",
+15    "anthropic",
+16    "claude",
+17    "ai",
+18    "language-models"
+19  ],
+20  "author": "",
+21  "license": "MIT",
+22  "dependencies": {
+23    "@langchain/anthropic": "^0.1.0",
+24    "@langchain/core": "^0.1.0",
+25    "n8n-workflow": "^1.0.0"
+26  },
+27  "devDependencies": {
+28    "@types/node": "^18.0.0",
+29    "@typescript-eslint/eslint-plugin": "^5.0.0",
+30    "@typescript-eslint/parser": "^5.0.0",
+31    "eslint": "^8.0.0",
+32    "eslint-plugin-n8n-nodes-base": "^1.0.0",
+33    "typescript": "^4.8.4"
+34  },
+35  "engines": {
+36    "node": ">=16.0.0"
+37  }
+38}
