@@ -6,8 +6,9 @@
   "scripts": {
     "start": "n8n"
   },
-  "dependencies": {
-    "n8n": "^1.0.0",
-    "n8n-nodes-langchain": "^1.2.0"
-  }
+"dependencies": {
+  "n8n": "^1.99.0",
+  "@n8n/n8n-nodes-langchain": "^1.99.0"   // ← 나중에 LangChain 쓸 거면 미리 넣어둬도 OK
+}
+
 }
